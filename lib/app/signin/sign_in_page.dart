@@ -8,6 +8,7 @@ class SignInPage extends StatelessWidget {
         title: Text('Time Tracker'),
         elevation: 2.0,
       ),
+      backgroundColor: Colors.grey[200],
       body: _buildContent(),
     );
   }
@@ -27,13 +28,23 @@ class SignInPage extends StatelessWidget {
           ),
           SizedBox(height: 8.0),
           RaisedButton(
-            child: Text('Sign in with google'),
+            child: Text(
+              'Sign in with google',
+              style: TextStyle(color: Colors.black, fontSize: 12.4),
+            ),
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.all(Radius.circular(4))),
+            color: Colors.red,
             onPressed: () {
-              print('Button Pressed');
+              _doit();
             },
           ),
         ],
       ),
     );
   }
+}
+
+void _doit() {
+  print('shit');
 }
