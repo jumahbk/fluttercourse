@@ -47,6 +47,39 @@ class SignInPage extends StatelessWidget {
             textColor: Colors.black38,
             color: Colors.white,
           ),
+          SizedBox(height: 8.0),
+          SignInButton(
+            text: 'Sign in with Facebook',
+            textColor: Colors.blue,
+            color: Colors.white,
+          ),
+          SizedBox(height: 8.0),
+          SignInButton(
+            text: 'Sign in with Email',
+            textColor: Colors.black38,
+            color: Colors.teal,
+          ),
+          SizedBox(height: 8.0),
+          Text(
+            'Sign In',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+                color: Colors.lightGreen,
+                fontSize: 15.0,
+                fontWeight: FontWeight.w100),
+          ),
+          SizedBox(height: 8.0),
+          SignInButton(
+            text: 'Sign ff with Email',
+            textColor: Colors.black38,
+            color: Colors.teal,
+          ),
+          SizedBox(height: 8.0),
+          CustomRaisedButton(
+            child: Image.asset('images/google-logo.png'),
+            color: Colors.white,
+            onPressed: () {},
+          )
         ],
       ),
     );
