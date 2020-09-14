@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:time_tracker_flutter_course/app/signin/signInButton.dart';
+import 'package:time_tracker_flutter_course/app/signin/social_sign_in_button.dart';
 import 'package:time_tracker_flutter_course/common/custom_raised_button.dart';
 
 class SignInPage extends StatelessWidget {
@@ -54,7 +55,8 @@ class SignInPage extends StatelessWidget {
             color: Colors.white,
           ),
           SizedBox(height: 8.0),
-          SignInButton(
+          SocialSignInButton(
+            assetName: 'images/google-logo.png',
             text: 'Sign in with Email',
             textColor: Colors.black38,
             color: Colors.teal,
@@ -69,17 +71,13 @@ class SignInPage extends StatelessWidget {
                 fontWeight: FontWeight.w100),
           ),
           SizedBox(height: 8.0),
-          SignInButton(
+          SocialSignInButton(
+            //assetName: 'images/facebook-logo.png',
             text: 'Sign ff with Email',
             textColor: Colors.black38,
-            color: Colors.teal,
+            color: Colors.teal, assetName: 'images/facebook-logo.png',
           ),
           SizedBox(height: 8.0),
-          CustomRaisedButton(
-            child: Image.asset('images/google-logo.png'),
-            color: Colors.white,
-            onPressed: () {},
-          )
         ],
       ),
     );
