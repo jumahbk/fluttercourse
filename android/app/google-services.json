@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "476625328852",
+    "firebase_url": "https://medart-flutter.firebaseio.com",
+    "project_id": "medart-flutter",
+    "storage_bucket": "medart-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476625328852:android:46198cd4427dafcb543941",
+        "android_client_info": {
+          "package_name": "com.example.time_tracker_flutter_course"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476625328852-50uubsl0atk5rmov81bdpl2b1v4gla28.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.time_tracker_flutter_course",
+            "certificate_hash": "edf92950b00866a064ae668b669bf1bdc5149d87"
+          }
+        },
+        {
+          "client_id": "476625328852-ooc87oc6auq54gb8pbd92codfqqs5jhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiPNpCzyPoBZhuvBSLz4IjRy3zLZMEcHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476625328852-ooc87oc6auq54gb8pbd92codfqqs5jhu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
