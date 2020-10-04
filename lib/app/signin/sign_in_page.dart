@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:time_tracker_flutter_course/app/signin/signInButton.dart';
 import 'package:time_tracker_flutter_course/app/signin/social_sign_in_button.dart';
-import 'package:time_tracker_flutter_course/common/custom_raised_button.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class SignInPage extends StatelessWidget {
+  Future<void> _signInAn() async {
+    final AuthResult = await FirebaseAuth.instance.signInAnonymously();
+    print('${AuthResult}');
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,7 +44,7 @@ class SignInPage extends StatelessWidget {
                 borderRadius: BorderRadius.all(Radius.circular(4))),
             color: Colors.red,
             onPressed: () {
-              _doit();
+              _signInAn();
             },
           ),
           SizedBox(height: 8.0),

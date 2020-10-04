@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>476625328852-ei45cvfil2q9v81vc18l5eh7kk0do2p3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.476625328852-ei45cvfil2q9v81vc18l5eh7kk0do2p3</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>476625328852-50uubsl0atk5rmov81bdpl2b1v4gla28.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA_e3lI8QbeZdiR6jCtQoaabtuUvNsV0F8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>476625328852</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.timeTrackerFlutterCourse</string>
+	<key>PROJECT_ID</key>
+	<string>medart-flutter</string>
+	<key>STORAGE_BUCKET</key>
+	<string>medart-flutter.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:476625328852:ios:5ebdb13af05961c0543941</string>
+	<key>DATABASE_URL</key>
+	<string>https://medart-flutter.firebaseio.com</string>
+</dict>
+</plist>
